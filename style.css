@@ -1,6 +1,6 @@
 /*
   ========================================
-  Background
+  Home-Background
   ========================================
 */
 body{
@@ -8,48 +8,73 @@ body{
       }
     
 .container {
-    position: relative; /* Set position to relative for container */
-    width: 800px; /* Set width of the container */
-    height: 800px; /* Set height of the container */
+    position: relative;
+    width: 800px;
+    height: 800px;
       }
       
 .container img {
-    position: absolute; /* Set position to absolute for the image */
-    top: -50px; /* Set distance from top */
-    left: 200px; /* Set distance from left */
-    width: 100%; /* Set width of the image to 100% of its container */
-    height: 100%; /* Set height of the image to 100% of its container */
-    object-fit: cover; /* Maintain aspect ratio while filling the container */
+    position: absolute;
+    top: -50px;
+    left: 200px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
       }
- 
-      
+
+.big-title {
+      position: absolute;
+      top: 560px;
+      right: 280px;
+    }
+
+.big-title h1 {
+      font-family: 'Merriweather',black;
+      font-size: 100px;
+      color: #ceb14f;
+    }
+
+    h1
+    p {
+       color: #ffffff;
+       font-family: sans-serif;
+       margin-bottom: 22px;
+    }
+    h1 {
+       text-shadow: 2px 2px #000000;
+       float: left;
+       font-size: 2.5em;
+       font-family: "Crete Round", sans-serif;
+    }
+    p{
+       clear: both;
+       color: #f1f1f1;
+       font-size: 14px;
+       line-height: 22px;
+    }
+
 /*
   ========================================
-  Buttons
+  Information-Button
   ========================================
 */
 .custom-button {
-    /* Button size */
-    width: 600px;
+    width: 630px;
     height: 150px;
     
-    /* Button color */
     background-color: #5383ec;
     color: #ceb14f;
   
-    /* Button text */
     font-family: "Merriweather", serif;
     font-weight: 700;
     font-style: normal;
     font-size: 100px;
   
-    /* Button position */
     position: absolute;
     top: 80%;
-    left: 50%;
+    left: 53%;
     transform: translate(-50%, -50%);
     
-    /* Button border and border radius */
     border: none;
     border-radius: 10px;
   
@@ -57,27 +82,12 @@ body{
     transition: all 0.3s ease;
   }
   
-  /* Button hover effect */
   .custom-button:hover {
-    background-color: #5383ec;
+    background-color: black;
   }
   
-  
-  h1
-p {
-   color: #ffffff;
-   font-family: sans-serif;
-   margin-bottom: 22px;
-}
-h1 {
-   text-shadow: 2px 2px #000000;
-   float: left;
-   font-size: 2.5em;
-   font-family: "Crete Round", sans-serif;
-}
-p{
-   clear: both;
-   color: #f1f1f1;
-   font-size: 14px;
-   line-height: 22px;
-}
+/*
+  ========================================
+  Selecion-Background
+  ========================================
+*/
