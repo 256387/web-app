@@ -22,16 +22,13 @@ body{
     object-fit: cover;
       }
 
-.big-title {
-      position: absolute;
-      top: 560px;
-      right: 280px;
-    }
-
 .big-title h1 {
       font-family: 'Merriweather',black;
       font-size: 100px;
       color: #ceb14f;
+      position: absolute;
+      top: 560px;
+      right: 280px;
     }
 
     h1
@@ -52,6 +49,34 @@ body{
        font-size: 14px;
        line-height: 22px;
     }
+
+.words h2 {
+    font-family: 'Merriweather',black;
+    font-size: 50px;
+    color: #ceb14f;
+    position: absolute;
+    top: 710px;
+    right: 210px;
+  }
+
+  h2
+  p {
+    color: #ffffff;
+    font-family: sans-serif;
+    margin-bottom: 22px;
+  }
+  h2 {
+    text-shadow: 2px 2px #000000;
+    float: left;
+    font-size: 2.5em;
+    font-family: "Crete Round", sans-serif;
+  }
+  p{
+    clear: both;
+    color: #f1f1f1;
+    font-size: 14px;
+    line-height: 22px;
+  }
 
 /*
   ========================================
@@ -86,8 +111,3 @@ body{
     background-color: black;
   }
   
-/*
-  ========================================
-  Selecion-Background
-  ========================================
-*/
